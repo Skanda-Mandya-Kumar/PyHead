@@ -36,7 +36,7 @@ def generate_badge_with_headshot(headshot_path, template_path, output_path):
     template.save(output_path, format="PNG")
 
 if __name__ == "__main__":
-    headshot_path = "/home/user/python files/IEEE Day app/Headshot/Matt (1).png"  # PNG format
+    headshot_path = ""C:\Users\SKANDA MK\OneDrive\Pictures\Skanda_M_K.jpg""  # PNG format
     output_path = "badge_with_headshot.png"
     
     generate_badge_with_headshot(headshot_path, template_path, output_path)
